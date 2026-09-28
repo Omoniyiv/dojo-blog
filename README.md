@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+## json-server is a mock REST API server. json server to watch for changes inside the data that is serving as the temporary database.
+
+npx json-server --watch data/db.json --port 8000
+
+OR
+
+npx json-server data/db.json --port 8000 (for Newer version)
